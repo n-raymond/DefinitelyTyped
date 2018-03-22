@@ -22,7 +22,7 @@ declare namespace NotificationSystem {
         level?: "error" | "warning" | "info" | "success";
         position?: "tr" | "tl" | "tc" | "br" | "bl" | "bc";
         autoDismiss?: number;
-        dismissible?: boolean;
+        dismissible?: "both" | "button" | "none" | "click";
         action?: ActionObject;
         children?: React.ReactNode;
         onAdd?: CallBackFunction;
